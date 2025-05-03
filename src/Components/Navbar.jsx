@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
         <img
-            src="./src/assets/logo.png"
+            src="./src/assets/logo.jpg"
             alt="AariWork Logo"
             className="max-h-8"
           />

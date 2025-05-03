@@ -133,7 +133,7 @@ const QrPayment = () => {
           <p className="qr-details">
             Pay to: <strong className="upi-id" onClick={handleCopyUpi}>{upiId}</strong>
             <div className="copy-img" onClick={handleCopyUpi}>
-              <img src="./src/assets/copy.png" alt="Copy" />
+              <img src="./src/assets/copy.jpg" alt="Copy" />
             </div>
             <br />
             Amount: ₹<strong>{amount}</strong><br />
