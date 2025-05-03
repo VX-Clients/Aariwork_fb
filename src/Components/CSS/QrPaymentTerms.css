@@ -1,0 +1,52 @@
+.terms-checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding: 0 16px;
+  }
+  
+  .terms-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    border: 2px solid #4b5563;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .terms-checkbox:hover {
+    border-color: #2563eb;
+  }
+  
+  .terms-label {
+    font-size: 1rem;
+    color: #4b5563;
+  }
+  
+  .terms-link {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .terms-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 640px) {
+    .terms-checkbox-container {
+      padding: 0 12px;
+      margin-top: 12px;
+      margin-bottom: 20px;
+    }
+  
+    .terms-checkbox {
+      width: 18px;
+      height: 18px;
+      margin-right: 10px;
+    }
+  
+    .terms-label {
+      font-size: 0.875rem;
+    }
+  }

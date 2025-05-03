@@ -1,0 +1,83 @@
+/* Designs.css */
+
+.design-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  
+  /* Category Section */
+  .category-section {
+    margin: 2rem 0;
+  }
+  
+  .category-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #222;
+    text-align: center;
+  }
+  
+  /* Card Grid */
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  /* card Design name */
+  .card-name {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: #f953c6;
+  }
+  /* Card */
+  .card {
+    width: 440px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }  
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+  }
+  
+  /* Animations */
+  .animate-fadeIn {
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Tweaks */
+  @media (max-width: 600px) {
+  
+    .category-title {
+      font-size: 1.3rem;
+    }
+  
+    .card-image {
+      height: 200px;
+    }
+  }
+  

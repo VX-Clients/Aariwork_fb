@@ -1,0 +1,18 @@
+/* About Page Styles */
+.story-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.125rem;
+    color: var(--color-text-light);
+    margin-bottom: 2rem;
+  }
+  
+  .mission-vision {
+    padding: 6rem 0;
+    background-color: white;
+  }
+  
+  .future-initiatives {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--color-primary-light) 0%, white 100%);
+  }
