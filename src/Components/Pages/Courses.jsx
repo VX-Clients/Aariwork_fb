@@ -39,17 +39,17 @@ const CourseCard = ({ title, description, learningPoints, pricing, image }) => {
             Pricing Options
           </h4>
           <div className="pricing-details">
-            <div className="price-row">
-              <span>With Material:</span>
-              <span className="price">₹{pricing.withMaterial}</span>
+            <div className="price-row ">
+              <span>Material Cost:</span>
+              <span className="price">₹{pricing.materialCost}</span>
             </div>
             <div className="price-row">
-              <span>Without Material:</span>
+              <span>Course Fees:</span>
               <span className="price">₹{pricing.withoutMaterial}</span>
             </div>
-            <div className="price-row material-cost">
-              <span>Material Cost:</span>
-              <span>₹{pricing.materialCost}</span>
+            <div className="price-row">              
+              <span>Total(With Material):</span>
+            <span className="price">₹{pricing.withMaterial}</span>
             </div>
           </div>
         </div>
@@ -130,8 +130,8 @@ const courses = [
       'Business insights for your Aari brand'
     ],
     pricing: {
-      withMaterial: 2500,
-      withoutMaterial: 500,
+      withMaterial: 1750,
+      withoutMaterial: 250,
       materialCost: 1500
     },
     image: 'Images/aari-work1.jpg'
@@ -145,8 +145,8 @@ const courses = [
       'Material selection and sourcing'
     ],
     pricing: {
-      withMaterial: 2300,
-      withoutMaterial: 500,
+      withMaterial: 1750,
+      withoutMaterial: 250,
       materialCost: 1500
     },
     image: 'Images/brooch-making.jpg'
@@ -160,8 +160,8 @@ const courses = [
       'Professional finishing touches'
     ],
     pricing: {
-      withMaterial: 650,
-      withoutMaterial: 100,
+      withMaterial: 600,
+      withoutMaterial: 50,
       materialCost: 550
     },
     image: 'Images/saree-pre.jpeg'
@@ -175,8 +175,8 @@ const courses = [
       'Design creation and transfer'
     ],
     pricing: {
-      withMaterial: 2800,
-      withoutMaterial: 2000,
+      withMaterial: 1500,
+      withoutMaterial: 500,
       materialCost: 1000
     },
     image: 'Images/fabric-painting.jpg'
@@ -190,9 +190,9 @@ const courses = [
       'Color combination mastery'
     ],
     pricing: {
-      withMaterial: 1500,
-      withoutMaterial: 500,
-      materialCost: 1000
+      withMaterial: 1750,
+      withoutMaterial: 250,
+      materialCost: 1500
     },
     image: 'Images/silk-thread-bangles.webp'
   }
