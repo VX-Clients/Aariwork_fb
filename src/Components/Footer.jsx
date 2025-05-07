@@ -56,7 +56,7 @@ const Footer = () => {
           <ul>
             <li>
               <MapPin className="icon" />
-              <span>Chennai, India</span>
+              <span>940 P  viralimalai, Pudukkottai , Tamil Nadu-621312</span>
             </li>
             <li>
               <Mail className="icon" />
